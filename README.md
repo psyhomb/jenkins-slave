@@ -28,7 +28,9 @@ Use URL to access Dockerfile
 docker build --no-cache --build-arg DOCKER_VERSION=17.06.0 --build-arg DOCKER_GID=997 -t psyhomb/jenkins-slave 'https://github.com/psyhomb/jenkins-slave/raw/master/Dockerfile'
 ```
 
-### Run command (only for testing purposes, this command will be executed by Jenkins during the build process)
+### Run command 
+
+*WARN:* Use this command only for testing, Jenkins will automatically start this container when build process starts
 ```
 docker run -d -it --name jenkins-slave -v /var/run/docker.sock:/var/run/docker.sock -p 22 psyhomb/jenkins-slave
 ```
