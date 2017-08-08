@@ -1,0 +1,2 @@
+# jenkins-slave
+YAJSDI
