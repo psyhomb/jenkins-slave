@@ -8,9 +8,11 @@ Build Jenkins slave Docker image
 ### Build args
 
 `DOCKER_VERSION`
+
 Use latest docker client [version](https://download.docker.com/linux/static/stable/x86_64)
 
 `DOCKER_GID`
+
 GID for `docker` group has to be exactly the same as one on the host, otherwise docker client won't be able to communicate with dockerd (running on the host) over docker socket (`/var/run/docker.sock`)
 
 
