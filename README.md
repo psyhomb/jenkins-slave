@@ -43,7 +43,7 @@ You can use this custom shell code in the Jenkins job Build section => build typ
 
 ```bash
 ### Custom and override environment vars
-# overrride
+# override
 export DOCKER_HOST="unix:///var/run/docker.sock"
 # custom
 export DOCKER_REGISTRY_URL="registry.example.com"
