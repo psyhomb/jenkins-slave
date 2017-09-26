@@ -2,7 +2,7 @@
 
 ### About
 
-Build Jenkins slave Docker image
+Most complete Jenkins slave Docker image that can be used for building other docker images
 
 
 ### Build args
@@ -29,7 +29,7 @@ docker build --no-cache --build-arg DOCKER_VERSION=17.06.0 --build-arg DOCKER_GI
 ```
 
 
-### Run command 
+### Run command
 
 *WARN:* Use this command only for testing, Jenkins will automatically start this container when build process starts
 ```
